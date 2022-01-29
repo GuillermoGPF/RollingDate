@@ -1,0 +1,1295 @@
+/* -------------------------------------------------------------------------------------- */
+/* -                                AppgDate Styles                                     - */
+/* -------------------------------------------------------------------------------------- */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* General */
+html {
+    font-size: 22px;
+}
+
+@media (max-width: 960px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+body {
+    font-family: 'Roboto','calibri', sans-serif;
+    color: #fff;
+    background: #153365;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    color: #fff;
+    margin: 2rem 0 0 2rem;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+/* Page */
+.rolling1,
+.rolling2 {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roulette1 {
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 5s;
+}
+
+.roulette1 div {
+    height: 50%;
+    width: 100px;
+    background-color: #3f51b5;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    left: 350px;
+}
+
+.roulette1 .one {
+    left: 50%;
+}
+
+.roulette1 .two {
+    transform: rotate(11.61deg);
+}
+
+.roulette1 .three {
+    transform: rotate(23.22deg);
+}
+
+.roulette1 .four {
+    transform: rotate(34.83deg);
+}
+
+.roulette1 .five {
+    transform: rotate(46.44deg);
+}
+
+.roulette1 .six {
+    transform: rotate(58.05deg);
+}
+
+.roulette1 .seven {
+    transform: rotate(69.66deg);
+}
+
+.roulette1 .eight {
+    transform: rotate(81.27deg);
+}
+
+.roulette1 .nine {
+    transform: rotate(92.88deg);
+}
+
+.roulette1 .ten {
+    transform: rotate(104.49deg);
+}
+
+.roulette1 .eleven {
+    transform: rotate(116.1deg);
+}
+
+.roulette1 .twelve {
+    transform: rotate(127.71deg);
+}
+
+.roulette1 .thirteen {
+    transform: rotate(139.32deg);
+}
+
+.roulette1 .fourteen {
+    transform: rotate(150.93deg);
+}
+
+.roulette1 .fifteen {
+    transform: rotate(162.54deg);
+}
+
+.roulette1 .sixteen {
+    transform: rotate(174.15deg);
+}
+
+.roulette1 .seventeen {
+    transform: rotate(185.76deg);
+}
+
+.roulette1 .eighteen {
+    transform: rotate(197.37deg);
+}
+
+.roulette1 .nineteen {
+    transform: rotate(208.98deg);
+}
+
+.roulette1 .twenty {
+    transform: rotate(220.59deg);
+}
+
+.roulette1 .twenty-one {
+    transform: rotate(232.2deg);
+}
+
+.roulette1 .twenty-two {
+    transform: rotate(243.81deg);
+}
+
+.roulette1 .twenty-three {
+    transform: rotate(255.42deg);
+}
+
+.roulette1 .twenty-four {
+    transform: rotate(267.03deg);
+}
+
+.roulette1 .twenty-five {
+    transform: rotate(278.64deg);
+}
+
+.roulette1 .twenty-six {
+    transform: rotate(290.25deg);
+}
+
+.roulette1 .twenty-seven {
+    transform: rotate(301.86deg);
+}
+
+.roulette1 .twenty-eight {
+    transform: rotate(313.47deg);
+}
+
+.roulette1 .twenty-nine {
+    transform: rotate(325.08deg);
+}
+
+.roulette1 .thirty {
+    transform: rotate(336.69deg);
+}
+
+.roulette1 .thirty-one {
+    transform: rotate(348.3deg);
+}
+
+.roulette2 {
+    width: 600px;
+    height: 600px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    transition: 5s;
+}
+
+.roulette2 div {
+    height: 50%;
+    width: 160px;
+    background-color: #009688;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    left: 220px;
+}
+
+.roulette2 .jan {
+    left: 50%;
+}
+
+.roulette2 .feb {
+    transform: rotate(30deg);
+}
+
+.roulette2 .mar {
+    transform: rotate(60deg);
+}
+
+.roulette2 .apr {
+    transform: rotate(90deg);
+}
+
+.roulette2 .may {
+    transform: rotate(120deg);
+}
+
+.roulette2 .jun {
+    transform: rotate(150deg);
+}
+
+.roulette2 .jul {
+    transform: rotate(180deg);
+}
+
+.roulette2 .aug {
+    transform: rotate(210deg);
+}
+
+.roulette2 .sep {
+    transform: rotate(240deg);
+}
+
+.roulette2 .oct {
+    transform: rotate(270deg);
+}
+
+.roulette2 .nov {
+    transform: rotate(300deg);
+}
+
+.roulette2 .dec {
+    transform: rotate(330deg);
+}
+
+.roulette3 {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    transition: 5s;
+}
+
+.roulette3 div {
+    height: 50%;
+    width: 230px;
+    background-color: #f44336;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    left: 85px;
+}
+
+.roulette3 .yearOne {
+    left: 50%;
+}
+
+.roulette3 .yearTwo {
+    transform: rotate(60deg);
+}
+
+.roulette3 .yearThree {
+    transform: rotate(120deg);
+}
+
+.roulette3 .yearFour {
+    transform: rotate(180deg);
+}
+
+.roulette3 .yearFive {
+    transform: rotate(240deg);
+}
+
+.roulette3 .yearSix {
+    transform: rotate(300deg);
+}
+
+.roulette4 {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 5s;
+}
+
+.roulette4 div {
+    height: 50%;
+    width: 40px;
+    background-color: #961812;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    padding: 1rem 0;
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: #fff;
+    left: 330px;
+}
+
+.roulette4 .second0 {
+    left: 50%;
+}
+
+.roulette4 .second1 {
+    transform: rotate(6deg);
+}
+
+.roulette4 .second2 {
+    transform: rotate(12deg);
+}
+
+.roulette4 .second3 {
+    transform: rotate(18deg);
+}
+
+.roulette4 .second4 {
+    transform: rotate(24deg);
+}
+
+.roulette4 .second5 {
+    transform: rotate(30deg);
+}
+
+.roulette4 .second6 {
+    transform: rotate(36deg);
+}
+
+.roulette4 .second7 {
+    transform: rotate(42deg);
+}
+
+.roulette4 .second8 {
+    transform: rotate(48deg);
+}
+
+.roulette4 .second9 {
+    transform: rotate(54deg);
+}
+
+.roulette4 .second10 {
+    transform: rotate(60deg);
+}
+
+.roulette4 .second11 {
+    transform: rotate(66deg);
+}
+
+.roulette4 .second12 {
+    transform: rotate(72deg);
+}
+
+.roulette4 .second13 {
+    transform: rotate(78deg);
+}
+
+.roulette4 .second14 {
+    transform: rotate(84deg);
+}
+
+.roulette4 .second15 {
+    transform: rotate(90deg);
+}
+
+.roulette4 .second16 {
+    transform: rotate(96deg);
+}
+
+.roulette4 .second17 {
+    transform: rotate(102deg);
+}
+
+.roulette4 .second18 {
+    transform: rotate(108deg);
+}
+
+.roulette4 .second19 {
+    transform: rotate(114deg);
+}
+
+.roulette4 .second20 {
+    transform: rotate(120deg);
+}
+
+.roulette4 .second21 {
+    transform: rotate(126deg);
+}
+
+.roulette4 .second22 {
+    transform: rotate(132deg);
+}
+
+.roulette4 .second23 {
+    transform: rotate(138deg);
+}
+
+.roulette4 .second24 {
+    transform: rotate(144deg);
+}
+
+.roulette4 .second25 {
+    transform: rotate(150deg);
+}
+
+.roulette4 .second26 {
+    transform: rotate(156deg);
+}
+
+.roulette4 .second27 {
+    transform: rotate(162deg);
+}
+
+.roulette4 .second28 {
+    transform: rotate(168deg);
+}
+
+.roulette4 .second29 {
+    transform: rotate(174deg);
+}
+
+.roulette4 .second30 {
+    transform: rotate(180deg);
+}
+
+.roulette4 .second31 {
+    transform: rotate(186deg);
+}
+
+.roulette4 .second32 {
+    transform: rotate(192deg);
+}
+
+.roulette4 .second33 {
+    transform: rotate(198deg);
+}
+
+.roulette4 .second34 {
+    transform: rotate(204deg);
+}
+
+.roulette4 .second35 {
+    transform: rotate(210deg);
+}
+
+.roulette4 .second36 {
+    transform: rotate(216deg);
+}
+
+.roulette4 .second37 {
+    transform: rotate(222deg);
+}
+
+.roulette4 .second38 {
+    transform: rotate(228deg);
+}
+
+.roulette4 .second39 {
+    transform: rotate(234deg);
+}
+
+.roulette4 .second40 {
+    transform: rotate(240deg);
+}
+
+.roulette4 .second41 {
+    transform: rotate(246deg);
+}
+
+.roulette4 .second42 {
+    transform: rotate(252deg);
+}
+
+.roulette4 .second43 {
+    transform: rotate(258deg);
+}
+
+.roulette4 .second44 {
+    transform: rotate(264deg);
+}
+
+.roulette4 .second45 {
+    transform: rotate(270deg);
+}
+
+.roulette4 .second46 {
+    transform: rotate(276deg);
+}
+
+.roulette4 .second47 {
+    transform: rotate(282deg);
+}
+
+.roulette4 .second48 {
+    transform: rotate(288deg);
+}
+
+.roulette4 .second49 {
+    transform: rotate(294deg);
+}
+
+.roulette4 .second50 {
+    transform: rotate(300deg);
+}
+
+.roulette4 .second51 {
+    transform: rotate(306deg);
+}
+
+.roulette4 .second52 {
+    transform: rotate(312deg);
+}
+
+.roulette4 .second53 {
+    transform: rotate(318deg);
+}
+
+.roulette4 .second54 {
+    transform: rotate(324deg);
+}
+
+.roulette4 .second55 {
+    transform: rotate(330deg);
+}
+
+.roulette4 .second56 {
+    transform: rotate(336deg);
+}
+
+.roulette4 .second57 {
+    transform: rotate(342deg);
+}
+
+.roulette4 .second58 {
+    transform: rotate(348deg);
+}
+
+.roulette4 .second59 {
+    transform: rotate(354deg);
+}
+
+
+.roulette5 {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    transition: 5s;
+}
+
+.roulette5 div {
+    height: 50%;
+    width: 35px;
+    background-color: #0096d2;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    padding: 1rem 0;
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: #fff;
+    left: 258px;
+}
+
+.roulette5 .minute0 {
+    left: 50%;
+}
+
+.roulette5 .minute1 {
+    transform: rotate(6deg);
+}
+
+.roulette5 .minute2 {
+    transform: rotate(12deg);
+}
+
+.roulette5 .minute3 {
+    transform: rotate(18deg);
+}
+
+.roulette5 .minute4 {
+    transform: rotate(24deg);
+}
+
+.roulette5 .minute5 {
+    transform: rotate(30deg);
+}
+
+.roulette5 .minute6 {
+    transform: rotate(36deg);
+}
+
+.roulette5 .minute7 {
+    transform: rotate(42deg);
+}
+
+.roulette5 .minute8 {
+    transform: rotate(48deg);
+}
+
+.roulette5 .minute9 {
+    transform: rotate(54deg);
+}
+
+.roulette5 .minute10 {
+    transform: rotate(60deg);
+}
+
+.roulette5 .minute11 {
+    transform: rotate(66deg);
+}
+
+.roulette5 .minute12 {
+    transform: rotate(72deg);
+}
+
+.roulette5 .minute13 {
+    transform: rotate(78deg);
+}
+
+.roulette5 .minute14 {
+    transform: rotate(84deg);
+}
+
+.roulette5 .minute15 {
+    transform: rotate(90deg);
+}
+
+.roulette5 .minute16 {
+    transform: rotate(96deg);
+}
+
+.roulette5 .minute17 {
+    transform: rotate(102deg);
+}
+
+.roulette5 .minute18 {
+    transform: rotate(108deg);
+}
+
+.roulette5 .minute19 {
+    transform: rotate(114deg);
+}
+
+.roulette5 .minute20 {
+    transform: rotate(120deg);
+}
+
+.roulette5 .minute21 {
+    transform: rotate(126deg);
+}
+
+.roulette5 .minute22 {
+    transform: rotate(132deg);
+}
+
+.roulette5 .minute23 {
+    transform: rotate(138deg);
+}
+
+.roulette5 .minute24 {
+    transform: rotate(144deg);
+}
+
+.roulette5 .minute25 {
+    transform: rotate(150deg);
+}
+
+.roulette5 .minute26 {
+    transform: rotate(156deg);
+}
+
+.roulette5 .minute27 {
+    transform: rotate(162deg);
+}
+
+.roulette5 .minute28 {
+    transform: rotate(168deg);
+}
+
+.roulette5 .minute29 {
+    transform: rotate(174deg);
+}
+
+.roulette5 .minute30 {
+    transform: rotate(180deg);
+}
+
+.roulette5 .minute31 {
+    transform: rotate(186deg);
+}
+
+.roulette5 .minute32 {
+    transform: rotate(192deg);
+}
+
+.roulette5 .minute33 {
+    transform: rotate(198deg);
+}
+
+.roulette5 .minute34 {
+    transform: rotate(204deg);
+}
+
+.roulette5 .minute35 {
+    transform: rotate(210deg);
+}
+
+.roulette5 .minute36 {
+    transform: rotate(216deg);
+}
+
+.roulette5 .minute37 {
+    transform: rotate(222deg);
+}
+
+.roulette5 .minute38 {
+    transform: rotate(228deg);
+}
+
+.roulette5 .minute39 {
+    transform: rotate(234deg);
+}
+
+.roulette5 .minute40 {
+    transform: rotate(240deg);
+}
+
+.roulette5 .minute41 {
+    transform: rotate(246deg);
+}
+
+.roulette5 .minute42 {
+    transform: rotate(252deg);
+}
+
+.roulette5 .minute43 {
+    transform: rotate(258deg);
+}
+
+.roulette5 .minute44 {
+    transform: rotate(264deg);
+}
+
+.roulette5 .minute45 {
+    transform: rotate(270deg);
+}
+
+.roulette5 .minute46 {
+    transform: rotate(276deg);
+}
+
+.roulette5 .minute47 {
+    transform: rotate(282deg);
+}
+
+.roulette5 .minute48 {
+    transform: rotate(288deg);
+}
+
+.roulette5 .minute49 {
+    transform: rotate(294deg);
+}
+
+.roulette5 .minute50 {
+    transform: rotate(300deg);
+}
+
+.roulette5 .minute51 {
+    transform: rotate(306deg);
+}
+
+.roulette5 .minute52 {
+    transform: rotate(312deg);
+}
+
+.roulette5 .minute53 {
+    transform: rotate(318deg);
+}
+
+.roulette5 .minute54 {
+    transform: rotate(324deg);
+}
+
+.roulette5 .minute55 {
+    transform: rotate(330deg);
+}
+
+.roulette5 .minute56 {
+    transform: rotate(336deg);
+}
+
+.roulette5 .minute57 {
+    transform: rotate(342deg);
+}
+
+.roulette5 .minute58 {
+    transform: rotate(348deg);
+}
+
+.roulette5 .minute59 {
+    transform: rotate(354deg);
+}
+
+.roulette6 {
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    transition: 5s;
+}
+
+.roulette6 div {
+    height: 50%;
+    width: 54px;
+    background-color: #4c2882;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    left: 158px;
+}
+
+.roulette6 .hour0 {
+    left: 50%;
+}
+
+.roulette6 .hour1 {
+    transform: rotate(15deg);
+}
+
+.roulette6 .hour2 {
+    transform: rotate(30deg);
+}
+
+.roulette6 .hour3 {
+    transform: rotate(45deg);
+}
+
+.roulette6 .hour4 {
+    transform: rotate(60deg);
+}
+
+.roulette6 .hour5 {
+    transform: rotate(75deg);
+}
+
+.roulette6 .hour6 {
+    transform: rotate(90deg);
+}
+
+.roulette6 .hour7 {
+    transform: rotate(105deg);
+}
+
+.roulette6 .hour8 {
+    transform: rotate(120deg);
+}
+
+.roulette6 .hour9 {
+    transform: rotate(135deg);
+}
+
+.roulette6 .hour10 {
+    transform: rotate(150deg);
+}
+
+.roulette6 .hour11 {
+    transform: rotate(165deg);
+}
+
+.roulette6 .hour12 {
+    transform: rotate(180deg);
+}
+
+.roulette6 .hour13 {
+    transform: rotate(195deg);
+}
+
+.roulette6 .hour14 {
+    transform: rotate(210deg);
+}
+
+.roulette6 .hour15 {
+    transform: rotate(225deg);
+}
+
+.roulette6 .hour16 {
+    transform: rotate(240deg);
+}
+
+.roulette6 .hour17 {
+    transform: rotate(255deg);
+}
+
+.roulette6 .hour18 {
+    transform: rotate(270deg);
+}
+
+.roulette6 .hour19 {
+    transform: rotate(285deg);
+}
+
+.roulette6 .hour20 {
+    transform: rotate(300deg);
+}
+
+.roulette6 .hour21 {
+    transform: rotate(315deg);
+}
+
+.roulette6 .hour22 {
+    transform: rotate(330deg);
+}
+
+.roulette6 .hour23 {
+    transform: rotate(345deg);
+}
+
+.date {
+    width: 120px;
+    height: 380px;
+    position: absolute;
+    margin-bottom: 490px;
+    left: 50%;
+    /* border: solid 8px crimson; */
+    border: solid 7px #fff;
+    border-radius: 0.5rem;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.time {
+    width: 45px;
+    height: 280px;
+    position: absolute;
+    margin-bottom: 450px;
+    left: 50%;
+    border: solid 5px #fff;
+    border-radius: 0.5rem;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+
+@media (max-width: 1500px) and (max-height: 900px) {
+    .roulette1 {
+        width: 380px;
+        height: 380px;
+    }
+    .roulette1 div {
+        height: 50%;
+        width: 40px;
+        font-size: 1.1rem;
+        left: 170px;
+        padding: 0.5rem 0;
+    }
+
+    .roulette2 {
+        width: 300px;
+        height: 300px;
+    }
+    .roulette2 div {
+        height: 50%;
+        width: 78px;
+        font-size: 1.6rem;
+        left: 111px;
+        padding: 0rem 0;
+    }
+
+    .roulette3 {
+        width: 220px;
+        height: 220px;
+    }
+    .roulette3 div {
+        height: 50%;
+        width: 124px;
+        font-size: 1.1rem;
+        left: 48px;
+        padding: 1rem 0;
+    }
+
+    .date {
+        width: 60px;
+        height: 170px;
+        margin-bottom: 260px;
+        border: solid 6px crimson;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .roulette1,
+    .roulette4 {
+        width: 600px;
+        height: 600px;
+    }
+    .roulette1 div {
+        height: 50%;
+        width: 80px;
+        font-size: 1.6rem;
+        left: 260px;
+    }
+    .roulette4 div {
+        height: 50%;
+        width: 40px;
+        font-size: 0.6rem;
+        left: 275px;
+    }
+
+    .roulette2,
+    .roulette5 {
+        width: 450px;
+        height: 450px;
+    }
+    .roulette2 div {
+        height: 50%;
+        width: 119px;
+        font-size: 1.6rem;
+        left: 166px;
+    }
+    .roulette5 div {
+        height: 50%;
+        width: 30px;
+        font-size: 0.6rem;
+        left: 210px;
+    }
+
+    .roulette3,
+    .roulette6 {
+        width: 300px;
+        height: 300px;
+    }
+    .roulette3 div {
+        height: 50%;
+        width: 170px;
+        font-size: 1.6rem;
+        left: 65px;
+    }
+    .roulette6 div {
+        height: 50%;
+        width: 48px;
+        font-size: 1rem;
+        left: 126px;
+    }
+
+    .date {
+        width: 90px;
+        height: 260px;
+        margin-bottom: 380px;
+    }
+
+    .time {
+        height: 220px;
+        margin-bottom: 400px;
+    }
+}
+
+@media (max-width: 620px) {
+    .roulette1,
+    .roulette4 {
+        width: 450px;
+        height: 450px;
+    }
+    .roulette1 div,
+    .roulette4 div {
+        height: 50%;
+        width: 50px;
+        font-size: 1.4rem;
+        left: 200px;
+        padding: 0.5rem 0;
+    }
+
+    .roulette2,
+    .roulette5 {
+        width: 350px;
+        height: 350px;
+    }
+    .roulette2 div,
+    .roulette5 div {
+        height: 50%;
+        width: 90px;
+        font-size: 1.6rem;
+        left: 130px;
+        padding: 0.5rem 0;
+    }
+
+    .roulette3,
+    .roulette6 {
+        width: 240px;
+        height: 240px;
+    }
+    .roulette3 div,
+    .roulette6 div {
+        height: 50%;
+        width: 135px;
+        font-size: 1.3rem;
+        left: 52px;
+        padding: 1rem 0;
+    }
+
+    .date,
+    .time {
+        width: 70px;
+        height: 200px;
+        margin-bottom: 310px;
+    }
+}
+
+@media (max-width: 470px) {
+    .roulette1,
+    .roulette4 {
+        width: 380px;
+        height: 380px;
+    }
+    .roulette1 div,
+    .roulette4 div {
+        height: 50%;
+        width: 40px;
+        font-size: 1.1rem;
+        left: 170px;
+        padding: 0.5rem 0;
+    }
+
+    .roulette2,
+    .roulette5 {
+        width: 300px;
+        height: 300px;
+    }
+    .roulette2 div,
+    .roulette5 div {
+        height: 50%;
+        width: 78px;
+        font-size: 1.6rem;
+        left: 111px;
+        padding: 0rem 0;
+    }
+
+    .roulette3,
+    .roulette6 {
+        width: 220px;
+        height: 220px;
+    }
+    .roulette3 div,
+    .roulette6 div {
+        height: 50%;
+        width: 124px;
+        font-size: 1.1rem;
+        left: 48px;
+        padding: 1rem 0;
+    }
+
+    .date,
+    .time {
+        width: 60px;
+        height: 170px;
+        margin-bottom: 260px;
+        border: solid 6px crimson;
+    }
+}
+
+@media (max-width: 390px) {
+    .roulette1,
+    .roulette4 {
+        width: 310px;
+        height: 310px;
+    }
+    .roulette1 div,
+    .roulette4 div {
+        height: 50%;
+        width: 40px;
+        font-size: 1.1rem;
+        left: 135px;
+        padding: 0.5rem 0;
+    }
+
+    .roulette2,
+    .roulette5 {
+        width: 230px;
+        height: 230px;
+    }
+    .roulette2 div,
+    .roulette5 div {
+        height: 50%;
+        width: 60px;
+        font-size: 1rem;
+        left: 85px;
+        padding: 0.2rem 0;
+    }
+
+    .roulette3,
+    .roulette6 {
+        width: 170px;
+        height: 170px;
+    }
+    .roulette3 div,
+    .roulette6 div {
+        height: 50%;
+        width: 96px;
+        font-size: 1rem;
+        left: 38px;
+        padding: 0.4rem 0;
+    }
+
+    .date,
+    .time {
+        width: 50px;
+        height: 140px;
+        margin-bottom: 220px;
+        border: solid 6px crimson;
+    }
+}
