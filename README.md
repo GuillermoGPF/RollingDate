@@ -3,7 +3,7 @@
 # RollingDate
 
 <div align="center">
-    <img src="./img/logo1.png" alt="Logo">
+    <img src="./img/logo.png" alt="Logo">
 </div>
 
 
