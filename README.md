@@ -15,6 +15,12 @@ Calendario en formato ruleta, con diseño original y colores vivos. Se coloca se
 
 Calendar in roulette format, with an original design and bright colours. It is placed according to the date and time that it is in Spain. The background is also updated according to the time of day, going from morning to night. To view it, open it with localhost server.
 
+## Website screenshot
+
+<div align="center">
+    <img src="./img/RollingDate.png" alt="screenshot">
+</div>
+
 
 ## Contact
 
